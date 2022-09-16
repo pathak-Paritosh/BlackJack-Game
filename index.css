@@ -1,0 +1,58 @@
+:root{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#box{
+    width: 50vw;
+    height: 100vh;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(143, 228, 143);
+}
+#JackHead{
+    width: 180px;
+    height: 100px;
+    color: rgb(170, 138, 56);
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+#Message{
+    /* border: 2px solid blue; */
+    width: 275px;
+    height: 65px;
+    font-size: 26px;
+    margin-left: 215px;
+    font-weight: bold;
+    font-style: italic;
+}
+#Card{
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 280px;
+}
+#sum{
+    font-size: 24px;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 280px;
+}
+button{
+    width: 150px;
+    font-size: 19px;
+    padding: 6px;
+    background-color: goldenrod;
+    color: green;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(200,150,40);
+}
